@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+
+
+    <form action="buscar.php" method="get" > 
+
+        <section>
+
+     
+
+    <fieldset>
+<table>
+
+
+<tr>
+
+    <td>Tratamiento: <span class="rojo"> * </span></td>
+    <td>Nombre: <span class="rojo"> * </span></td>
+    <td>Apellido 1: <span class="rojo"> * </span></td>
+    <td>Apellido 2:</td>
+
+</tr>
+
+<tr>
+    
+    <td><input type="radio" name="hm" value="h" required>Sr.
+    <input type="radio" name="hm" value="m" required>Sra.</td>
+
+    <td><input type="text" name="nombre" size="40" placeholder="Nombre" required ></td>
+    
+    <td><input type="text" name="apellido1" size="40" placeholder="Apellido1" required></td>
+
+    <td><input type="text" name="apellido2" size="40" placeholder="Apellido2" required></td>
+
+
+
+
+    
+     
+<tr>
+
+    <td>Tipo Doc: <span class="rojo"> * </span></td>
+    <td>Nº de Doc: <span class="rojo"> * </span></td>
+    <td>Fecha de nacimiento: <span class="rojo"> * </span></td>
+
+</tr>
+
+<tr>
+
+    <td>
+    <select name="menu">
+        <option value="0">D.N.I</option>
+            <option value="1">NIF</option>
+                </select>
+    
+    <td>
+
+            <input type="name" name="Documento" step="any" required>
+
+    </td>
+
+    <td><input type="date" name="fecha" required></td>
+
+
+</tr>
+
+
+<tr>
+
+        <td>Pais de nacimiento: <span class="rojo"> * </span></td>
+        <td>Nacionalidad: <span class="rojo"> * </span></td>
+        <td>Segunda nacionalidad:</td>
+        <td>Pais de residencia fiscal: <span class="rojo"> * </span></td>
+    </tr>
+
+<tr>
+
+    <td>
+        <select name="menu" required>
+            <option value="0">ESPAÑA</option>
+            <option value="1">ALEMANIA</option>
+            <option value="2">PORTUGAL</option>
+            <option value="3">IRLANDA</option>
+        </select>
+    </td>
+
+    <td>
+            <select name="menu" required>
+                <option value="0">ESPAÑOLA</option>
+                <option value="1">ALEMANA</option>
+                <option value="2">PORTUGUESA</option>
+                <option value="3">IRLANDESA</option>
+            </select>
+        </td>
+
+        <td>
+                <select name="menu">
+                    <option value="0">NINGUNA</option>    
+                    <option value="0">ESPAÑOLA</option>
+                    <option value="1">ALEMANA</option>
+                    <option value="2">PORTUGUESA</option>
+                    <option value="3">IRLANDESA</option>
+                </select>
+            </td>
+
+            <td>
+                    <select name="menu" required>
+                        <option value="0">ESPAÑA</option>
+                        <option value="1">ALEMANIA</option>
+                        <option value="2">PORTUGAL</option>
+                        <option value="3">IRLANDA</option>
+                    </select>
+                </td>
+</tr>
+
+<tr>
+
+        <td>Trabajo<span class="rojo"> * </span></td>
+        <td>Tipo de actividad<span class="rojo"> * </span></td>
+        <td>Sector profesional<span class="rojo"> * </span></td>
+        <td>Empresa: <span class="rojo"> * </span></td>
+    </tr>
+
+<tr>
+
+    <td>
+    <select name="menu" required>
+
+        <option value="0">...</option>
+
+    </select>
+    </td>
+
+    <td>
+    <select name="menu" required>
+        
+        <option value="0">...</option>
+        
+    </select>
+    </td>
+
+    <td>
+    <select name="menu" required>
+
+        <option value="0">...</option>
+
+    </select>
+    </td>
+
+    <td><input type="text" name="nombre" size="40" placeholder="Nombre de la Empresa" required></td>
+
+</tr>
+
+<tr>
+
+        <td>Proposito de la cuenta: <span class="rojo"> * </span></td>
+        <td>Origen de sus ahorros: <span class="rojo"> * </span></td>
+    
+</tr>
+
+<tr>
+
+                <td>
+                    <select name="menu" required>
+                        <option value="0">Ahorro</option>
+                        <option value="1">Otro...</option>
+                        
+                    </select>
+                </td>
+ 
+
+                <td>
+                    <select name="menu" required>
+                        <option value="0">Nomina o pension</option>
+                        <option value="1">Otro...</option>
+                        
+                    </select>
+                </td>
+</tr>
+    </table>
+</section> 
+
+<section>
+
+<fieldset>
+<table>
+<tr>
+
+        <td>Tipo de via<span class="rojo"> * </span></td>
+        <td>Direccion<span class="rojo"> * </span></td>
+        <td>Numero<span class="rojo"> * </span></td>
+        <td>Piso</td>
+    
+</tr>
+
+<tr>
+        <td>
+        <select name="menu" required>
+        <option value="0">CALLE</option>
+
+        </select>
+        </td>
+
+        <td><input type="text" name="nombre" size="40" placeholder="Direccion" required ></td>
+        <td><input type="number" name="Numero" size="40" placeholder="Numero" required ></td>
+        <td><input type="number" name="Num piso" size="40" placeholder="Piso"></td>
+
+
+
+</tr>
+
+<tr>
+
+        <td>Urb./Pol./Otros</td>
+        <td>Localidad<span class="rojo"> * </span></td>
+        <td>Provincia<span class="rojo"> * </span></td>
+        <td>Codigo Postal<span class="rojo"> * </span></td>
+    
+</tr>
+
+<tr>
+
+        <td><input type="text" name="nombre" size="40" ></td>
+        <td><input type="text" name="nombre" size="40" required></td>
+        <td>
+        <select name="menu" required>
+        <option value="0">...</option>
+        </select>
+        </td>
+        <td><input type="number" name="CP" size="40"></td>
+
+</tr>
+
+<tr>
+
+        <td>Telefono movil:<span class="rojo"> * </span></td>
+        <td>Telefono particular: </td>
+        <td>Direccion e-mail:<span class="rojo"> * </span></td>
+        
+    
+</tr>
+
+<tr>
+
+        <td><input type="number" name="Telefono" size="40" required></td>
+        <td><input type="number" name="Telefono particular" size="40"></td>
+        <td><input type="email" name="correo" size="40" required></td>
+
+
+</tr>
+
+</table>
+
+</fieldset>
+
+</section>
+
+<hr>
+
+<section>
+
+<p>Para ofrecerle un mejor servicio nos seria util conocer si posee otra entidad:</p>
+<table>
+
+<tr>
+
+<input type="checkbox" name="casilla">Plan de pensiones
+<input type="checkbox" name="casilla">Fondos
+<input type="checkbox" name="casilla">Acciones
+<input type="checkbox" name="casilla">Hipoteca
+<input type="checkbox" name="casilla">Prestamo 
+<input type="checkbox" name="casilla">Seguro de Vida
+
+</tr>
+
+</table>
+
+</section>
+
+<hr>
+
+<section>
+
+<p class="prueba"> Puede consultar en nuestra Web o solicitamos toda la <a href="" > informacion Precontractual </a>
+de nuestros productos. Al pulsar "Consultar" esta
+aceptando la <a href="" > Clausula de Proteccion de datos </a> <br> <br>
+ (*) Los campos marcados con asterisco son obligatorios.
+</p>
+
+<button type="submit">
+
+<img src="imagen\boton.png" alt="imagen" width="400" height="100" style="vertical-align: middle">
+
+</section>
+
+</form> 
+
+    </main>
+</body>
+</html>

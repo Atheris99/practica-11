@@ -1,0 +1,29 @@
+p.prueba {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin: 2px;
+    padding: 2px;
+    border: black 0px solid;
+  }
+
+input.centro {
+    float: center;
+}
+
+h3.centro {
+    text-align: center;
+
+}
+
+table {
+    width: 100%;
+}
+
+span.rojo {
+    color: rgb(255, 70, 70);
+}
+
+table, h3, p {
+    font-family: sans-serif;
+  }
